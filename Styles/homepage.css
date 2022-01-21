@@ -7,7 +7,7 @@
     width: 100%;
     display: flex;
     margin: -9px auto;
-    position: fixed;
+    /* position: fixed; */
     background-color: white;
 }
 .logo
