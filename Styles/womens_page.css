@@ -1,0 +1,93 @@
+*{
+     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ }       
+#navBar
+{
+    height:70px;
+    width: 100%;
+    display: flex;
+    margin: -9px auto;
+    /* position: fixed; */
+    background-color: white;
+}
+.logo
+{
+    margin-left: 120px;
+}
+.womens
+{  display: none;
+    position: absolute;
+    z-index: 1;
+    padding: 20px;
+ 
+
+}
+.title1:hover .womens{
+    display: flex;
+    background-color: white;
+    z-index: 1;
+    width: 100%;
+    height: 10px;
+    margin: auto;
+}
+.womens>p{
+    margin-top: -7px;
+}
+
+p{
+   margin-left: 17px;
+   margin-top: 25px;
+}
+
+p>a{
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+}
+a>img{
+    margin-right: 40px;
+    margin-left: 20px;
+}
+input{
+    width: 200px;
+    height: 25px;
+    margin-top: 20px;
+    border-radius: 7px;
+    border: none;
+}
+.user{
+    margin: 23px 15px 0px 15px;
+}
+.searchIcon{
+     margin: 25px 15px 0px -20px;
+}
+#myList{
+    display: none;
+    grid-template-rows: repeat(4,1fr);
+    z-index: 2;
+    position: absolute;
+    margin-left: 770px;
+    margin-top: 100px;
+    background-color: white;
+    width: 400px;
+    height: 250px;
+}
+.listLine>h3{
+    margin-left: 100px;
+    height: 25px;
+}
+.likesbtns{
+    display: flex;
+}
+.likesbtns>button
+{
+    font-size: 20px;
+    height: 40px;
+    width: 100px;
+    color: white;
+    background-color: black;
+    border-radius: 20px;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+} 
