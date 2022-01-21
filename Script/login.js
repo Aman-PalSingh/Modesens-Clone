@@ -14,6 +14,8 @@ function login(event)
         if (users[i].emailId == email && users[i].pass == password)
         {
             flag = true;
+            var lgUser = users[i].emailId;
+            localStorage.setItem("loggedUser", lgUser);
         }
     }
     if (flag == true)

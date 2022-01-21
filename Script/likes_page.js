@@ -24,6 +24,10 @@ function creation(elem)
     div.append(image,name,p,price,btn);
 
 }
+var userText = document.querySelector(".content1Text")
+var userTextData = localStorage.getItem("loggedUser");
+
+userText.textContent = "Hello @" + userTextData; 
 function myFunc(event)
 {
     window.location.href = "thanks.html"
