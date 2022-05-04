@@ -11,7 +11,8 @@ with logged user details in the cart page.
 </br>
 Tech Stack : Html | CSS | JavaScript 
 </br>
-Areas of responsibility:
+</br>
+Areas of responsibility :-
 </br>
 This project is entirely my own work.
 </br>
